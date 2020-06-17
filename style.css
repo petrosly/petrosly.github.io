@@ -1,0 +1,184 @@
+/*General css for the whole page*/
+body {
+  background: rgb(204,204,204); 
+  font-family: Arial;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"] {  
+  width: 21cm;
+  height: 23.7cm; 
+}
+.row{
+	display: block;
+}
+
+.col4{
+	display: inline-block;
+	align-content: center;
+	margin-right: .5%;
+}
+
+.main-container{
+	margin: 0 7%;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.normal{
+	font-weight: normal;
+}
+
+.relative{
+	position: relative;
+}
+
+.zero-margin{
+	margin:0;
+}
+
+hr{
+	width: 100%;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: .4%;
+	margin-bottom: 0;
+	border-color: black;
+}
+/*Personal-info css*/
+.personal-info{
+	padding-top: 7%;
+}
+
+.name-row{
+	font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+
+}
+/*Social media row css*/
+.social-row{
+	margin-top: .3%;
+    text-align: center;
+}
+
+/*Languages div css*/
+.languages{
+	margin-top: 5%;
+}
+
+.language-row{
+	width:50%;
+}
+
+.language-row p, .language-row i{
+	display: inline-block;
+}
+
+.english-paragraph{
+	font-size: 1em;
+	font-weight: bold;
+	margin-right: 50%;
+	margin-bottom: 0;
+}
+
+.lang-info{
+	margin-top: 0;
+	font-size: .8em;
+	font-style: italic;
+}
+.circle-gray{
+	color:	#D3D3D3;
+}
+/* Education div css */
+
+.education{
+	margin-top: 5%;
+}
+
+.education p, .professional-experiences p, .professionla-experiences ul{
+	display: inline-block;
+	font-size: 1em;
+	margin: 0;
+} 
+
+.education-info{
+	margin: 2% 0;
+}
+
+.col1of2{
+	width: 20%;
+	margin-right: 5% !important;
+}
+
+.col2of2{
+	width: 60%;
+}
+
+/*Professional experiences css*/
+
+.professional-experiences{
+	font-size: 1em;
+	margin-top: 5%;
+}
+
+.professional-experiences ul{
+	padding: 0;
+	margin:0;
+	padding-left: 3%;
+}
+
+.location{
+	position: absolute;
+	top: 0;
+}
+
+.recompile-info{
+	margin-left: 25% !important;
+}
+
+.experiences-info{
+	margin-top: 2% ;
+}
+
+/* Project css */
+
+.projects{
+	font-size: 1em;
+	margin-top: 5%;
+}
+.project1, .project2{
+	margin-top: 2%;
+}
+
+/*Skills css*/
+
+.skills{
+	margin-top: 2%;
+}
+
+.skill-col-1, .skill-col-2{
+	width: 45%;
+}
+
+.skills3, .skills2{
+	margin-right: 10%;
+}
+
+.skill2{
+	margin-left: 10%;
+}
