@@ -16,6 +16,15 @@ page[size="A4"] {
   width: 21cm;
   height: 23.7cm; 
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: lightblue;
+}
 .row{
 	display: block;
 }
